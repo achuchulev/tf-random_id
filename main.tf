@@ -28,7 +28,7 @@ resource "aws_instance" "server" {
   key_name               = "${aws_key_pair.my_key.id}"
 
   connection {
-    user        = "ubuntu"
+    user        = "$(var.username)"
     private_key = "${file("~/.ssh/id_rsa")}"
   }
 }
