@@ -19,7 +19,7 @@ cd tf-random_id/
 ```
 aws_access_key = ""
 aws_secret_key = ""
-ami_id = "ami-id"               # Once ami-id is changed terraform is going to re-create the ec2 instance with new name
+ami_id = "ami-id"  # Once ami-id is changed terraform is going to re-create the ec2 instance with new name
 region = "aws-region"
 instance_type = "t2.micro"
 subnet_id = "subnet-id"
