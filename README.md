@@ -26,7 +26,6 @@ subnet_id = "subnet-id"
 vpc_security_group_ids = ["sg-id"]
 tag_name = "tag-name"
 identity = "new-key-pair-name"
-username = "ubuntu"
 ```
 
 ### Export your AWS access key and secret key as enviroment variables
