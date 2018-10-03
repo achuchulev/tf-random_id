@@ -7,7 +7,6 @@ resource "random_id" "server" {
   byte_length = 8
 }
 
-
 resource "aws_key_pair" "my_key" {
   key_name   = "key-${var.identity}"
   public_key = "${file("~/.ssh/id_rsa.pub")}"
