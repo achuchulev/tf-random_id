@@ -10,7 +10,7 @@
 ### Download the repo and go to the repo directory
 
 ```
-https://github.com/achuchulev/tf-random_id.git
+git clone https://github.com/achuchulev/tf-random_id.git
 cd tf-random_id/
 ```
 
